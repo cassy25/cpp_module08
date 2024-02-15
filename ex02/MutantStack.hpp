@@ -38,6 +38,7 @@ class MutantStack : public Container
         }
         MutantStack& operator=(MutantStack const& copy)
         {
+            (void)copy;
             return (*this);
         }
         typedef typename Container::iterator iterator;
